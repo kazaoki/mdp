@@ -22,5 +22,5 @@ docker run --rm -i -v $(pwd):/files kazaoki/mdp /files/sample.md
 
 for Windows
 ```
-# docker run --rm -i -v %CD%:/files kazaoki/mdp /files/sample.md
+docker run --rm -i -v %CD%:/files kazaoki/mdp /files/sample.md
 ```
